@@ -637,8 +637,8 @@ background-color: #3c3c3c;
 
     .copirayte {
         position: relative;
-        margin: 2.8vw auto 0 7.4vw;
         width: 17.1vw;
+        margin: 2.8vw auto 0 7.4vw;
         font-family: Arial, Helvetica, sans-serif;
         font-size: .8vw;
         color: azure;
@@ -673,16 +673,12 @@ background-color: #3c3c3c;
             background-color: #af0e14;}
 
         .fb:hover {
-    
             background-color: #3b74ad;}
         .vk:hover {
-   
             background-color: #3c7ca7;}
         .ok:hover {
-    
             background-color: #e4b819;}
         .ytb:hover {
-    
             background-color: #cf141a;}
 
 
@@ -1386,7 +1382,7 @@ burger_menu */
         border: 7vw solid transparent;
         border-bottom: 7vw solid white;
 
-        z-index: 200;
+        z-index: 20;
     }
     
     .gallery_right div {
@@ -1458,7 +1454,7 @@ burger_menu */
         border: 7vw solid transparent;
         border-bottom: 7vw solid #236ecb;
 
-        z-index: 200;
+        z-index: 250;
     }
 
 /* Block_four
@@ -1482,7 +1478,7 @@ burger_menu */
         border: 7vw solid transparent;
         border-bottom: 7vw solid #b1d6f0;
 
-        z-index: 200;
+        z-index: 250;
     }
 
     .summer_right {
