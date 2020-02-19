@@ -147,8 +147,8 @@ time, mark, audio, video {
 }
 
 html, body {
-    max-width: 1560px;
-    width: 100%;
+/*     max-width: 1690px; */
+    width: 103%;
     display: flex;
     font-family: "Gotham Pro";
     color: #555;
@@ -685,7 +685,7 @@ background-color: #3c3c3c;
             
 /* @media
 ========================== */ 
-@media (min-width: 1561px) {
+@media (min-width: 1761px) {
 
 body {
     box-shadow: 0 0 10px rgba(0,0,0,0.5); 
