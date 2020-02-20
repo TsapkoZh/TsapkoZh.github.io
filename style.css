@@ -543,6 +543,10 @@ menu {
         z-index: 10;
     }
 
+    .text_block br {
+        display: none;
+    }
+
     .text_block {
         position: relative;
 
@@ -711,30 +715,40 @@ background-color: #3c3c3c;
     }
 
         .fb {
+        	opacity: .85;
             background-image: url(images/fb.jpeg);
-            background-size: cover;
-            background-color: #336292;}
+            background-size: 47%;
+            background-color: #336aa3;}
+
         .vk {
+        	opacity: .85;
             background-image: url(images/vk.jpeg);
-            background-size: cover;
-            background-color: #356f97;}
+            background-size: 47%;
+            background-color: #3478a7;}
+
         .ok {
+        	opacity: .85;
             background-image: url(images/ert.jpeg);
-            background-size: cover;
-            background-color: #d1aa17;}
+            background-size: 47%;
+            background-color: #edbf10;}
+
         .ytb {
+        	opacity: .85;
             background-image: url(images/ytb.jpeg);
-            background-size: cover;
-            background-color: #af0e14;}
+            background-size: 47%;
+            background-color: #c7080f;}
 
         .fb:hover {
-            background-color: #3b74ad;}
+           opacity: 1;}
+           
         .vk:hover {
-            background-color: #3c7ca7;}
+            opacity: 1;}
+
         .ok:hover {
-            background-color: #e4b819;}
+            opacity: 1;}
+
         .ytb:hover {
-            background-color: #cf141a;}
+            opacity: 1;}
 
 
             
@@ -1519,6 +1533,8 @@ burger_menu */
         margin: .5vw;
     }
 
+
+
 /* Block_three
 ========================== */ 
 .block_three {
@@ -1537,18 +1553,22 @@ burger_menu */
 
     .about_left h2 {
         padding: 0;
-        margin: 12.2vw 10.4vw 0;
-        font-size: 9.5vw;
+        margin: 12.04vw 9.97vw 0;
+        font-size: 9.45vw;
         line-height: 9.46vw;
-        letter-spacing: -.36vw;
+        letter-spacing: -.31vw;
+    }
+
+    .text_block br {
+        display: inline;
     }
 
     .text_block {
         width: 43vw;
         height: 21vw;
         font-size: 3.3vw;
-        margin-left: 10.8vw;
-        margin-top: 8.2vw;
+        margin-left: 10.6vw;
+        margin-top: 8.32vw;
         line-height: 5.1vw;
         letter-spacing: .25vw;
     }
