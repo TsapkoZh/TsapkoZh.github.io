@@ -673,15 +673,19 @@ background-color: #3c3c3c;
 
         .fb {
             background-image: url(images/fb.jpeg);
+            background-size: cover;
             background-color: #336292;}
         .vk {
             background-image: url(images/vk.jpeg);
+            background-size: cover;
             background-color: #356f97;}
         .ok {
             background-image: url(images/ert.jpeg);
+            background-size: cover;
             background-color: #d1aa17;}
         .ytb {
             background-image: url(images/ytb.jpeg);
+            background-size: cover;
             background-color: #af0e14;}
 
         .fb:hover {
