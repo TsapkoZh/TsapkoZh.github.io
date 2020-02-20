@@ -1261,11 +1261,13 @@ burger_menu */
 
 /* Block_one
 ========================== */
+.block_one_gradient {
+    background: linear-gradient(79deg, #80bae2, #609dd3);
+}
+
 .block_one {
     height: 172.6vw;
     background-size: 225%;
-    background-color: #6AAAD9;
-/*     background: linear-gradient(45deg, #c15309, #C5DDE8); */
     background-position: -106.7vw 69.6vw;
     background-repeat: no-repeat;
  }
@@ -1377,7 +1379,9 @@ burger_menu */
         display: flex;
         flex-wrap: wrap;
         width: 100%;
-        height: 100.4vw;
+        height: 100.94vw;
+        background-size: 105%;
+        background-position:  5vw -2.65vw;
     }
 
     .vk_icon {
@@ -1389,50 +1393,51 @@ burger_menu */
     }
 
     h2 {
-    	display:inline-block;
+
         font-size: 6.3vw;
-        margin-left:11.5vw;
-        margin-top: 1.5vw;
+        margin-left: 10.99vw;
+        margin-top: 1.99vw;
         margin-bottom: 8.6vw;
         line-height: 8.8vw;
     }
 
     h2 span {
-        line-height: 8.6vw;
-        width: 38vw;
-        display: inline-block;
-        padding: 0px .7vw 0px 1.1vw;
-        margin-left: -1.1vw;
+        width: 39vw;
+
+        padding: 2.3vw .79vw 2.6vw 1.68vw;
+        margin-left: -1.5vw;
     }
 
     .btn {
-        padding: 2.3vw 0;
-        margin: 73vw 1vw 0vw -3vw;
+    	width: 34.5vw;
+        height: 9.75vw;
+        padding: 2.75vw 8vw;
+        margin: 73vw 1vw 0vw -3.7vw;
         font-size: 3.5vw;
-        width: 34vw;
+        letter-spacing: .3vw;
     }
 
     .gallery_right {
         position: relative;
         width: 91.4%;
         height: 91.7vw;
-        padding: 4.6vw 4vw 4.5vw 4.5vw;
+        padding: 4.46vw 4vw 4.5vw 4.35vw;
         margin: 0;
     }
 
     .gallery_right::before {
         content: ''; 
         position: absolute;
-        left: 44%;
-        top: -13.8%; 
-        border: 7vw solid transparent;
-        border-bottom: 7vw solid white;
+        left: 43.66%;
+        top: -13.5%; 
+        border: 8vw solid transparent;
+        border-bottom: 8vw solid white;
 
         z-index: 20;
     }
     
     .gallery_right div {
-        width: 32.1%;
+        width: 32.2%;
         height: 31.9%;
         margin: .5vw;
     }
