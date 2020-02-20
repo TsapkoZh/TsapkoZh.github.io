@@ -439,6 +439,10 @@ menu {
         margin: 1.7vw auto 1.6vw 1.58vw;
     }
 
+    .gallery_right:hover {
+        cursor: pointer;
+    }
+
     .gallery_right div {
         width: 32.3%;
         height: 32.1%;
@@ -446,51 +450,51 @@ menu {
         margin: .2vw;
     }
 
-    .gallery_img_1 {
-        background-image: url(images/gal_1.png);
-        background-size: cover;
-    }
+        .gallery_img_1 {
+            background-image: url(images/gal_1.png);
+            background-size: cover;
+        }
 
-    .gallery_img_2 {
-        background-image: url(images/gal_2.png);
-        background-size: cover;
-    }
+        .gallery_img_2 {
+            background-image: url(images/gal_2.png);
+            background-size: cover;
+        }
 
-    .gallery_img_3 {
-        background-image: url(images/gal_3.png);
-        background-size: cover;
-    }
+        .gallery_img_3 {
+            background-image: url(images/gal_3.png);
+            background-size: cover;
+        }
 
-    .gallery_img_4 {
-        background-image: url(images/gal_4.png);
-        background-size: cover;
-    }
+        .gallery_img_4 {
+            background-image: url(images/gal_4.png);
+            background-size: cover;
+        }
 
-    .gallery_img_5 {
-        background-image: url(images/gal_5.png);
-        background-size: cover;
-    }
+        .gallery_img_5 {
+            background-image: url(images/gal_5.png);
+            background-size: cover;
+        }
 
-    .gallery_img_6 {
-        background-image: url(images/gal_6.png);
-        background-size: cover;
-    }
+        .gallery_img_6 {
+            background-image: url(images/gal_6.png);
+            background-size: cover;
+        }
 
-    .gallery_img_7 {
-        background-image: url(images/gal_7.png);
-        background-size: cover;
-    }
+        .gallery_img_7 {
+            background-image: url(images/gal_7.png);
+            background-size: cover;
+        }
 
-    .gallery_img_8 {
-        background-image: url(images/gal_8.png);
-        background-size: 111%;
-        background-position: -.65vw .1vw;
-    }
+        .gallery_img_8 {
+            background-image: url(images/gal_8.png);
+            background-size: 111%;
+            background-position: -.65vw .1vw;
+        }
 
-    .gallery_img_9 {
-        background-image: url(images/gal_9.png);
-        background-size: cover;
-    }
+        .gallery_img_9 {
+            background-image: url(images/gal_9.png);
+            background-size: cover;
+        }
 
 
 
@@ -891,6 +895,7 @@ body {
 
     .btn {
         width: 250px;
+        height: 72px;
         padding: 20px 33px;
         margin: 41px 90px 0px;
         font-size: 26px;
@@ -945,6 +950,11 @@ body {
         background-size: 100% 100%;
     }
 
+    .about_left::after {
+        border: 96px solid transparent;
+        border-left: 96px solid #f01401;
+    }
+
     .btn--about {
         margin-top: 34px;
     }
@@ -953,7 +963,11 @@ body {
         height: 715px;
         background-size: cover;
     }
-
+    .lef::after {
+        border: 96px solid transparent;
+        border-right: 96px solid #fed001;
+    }
+    
 
 
     /* Block_four
@@ -976,6 +990,11 @@ body {
         margin-left: 0px;
         letter-spacing: -0.8px;
         font-size: 69px;
+    }
+
+    .summer_right::after {
+        border: 96px solid transparent;
+        border-right: 96px solid #fed001;
     }
 
 
