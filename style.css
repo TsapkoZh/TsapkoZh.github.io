@@ -153,6 +153,7 @@ html, body {
     font-family: "Gotham Pro";
     color: #555;
     margin: 0 auto;
+   
 }
 menu {
     display: flex;
@@ -272,15 +273,15 @@ menu {
     .icons_block {
         display: flex;
         flex-direction: row;
-        margin-top: 72px;
-        margin-left: 74px;
+        margin-top: 4.8vw;
+        margin-left: 4.5vw;
         text-align: center;
     }
 
     .icon div{
         text-align: center;
-        width: 8.02vw;
-        margin: 0 1.9vw;
+        width: 8.09vw;
+        margin: 0 1.91vw;
     }
 
     .icon_wrap {
@@ -296,10 +297,14 @@ menu {
     }
 
     .icon p {
-        padding-top: 17px;
-        font-size: 19px;
-        line-height: 1.6vw;
-        letter-spacing: -0.9px;
+    	margin-left: -.1vw;
+        padding-top: 1vw;
+        font-size: 1.22vw;
+        line-height: 1.57vw;
+        letter-spacing: -.05vw;
+    }
+    .icon_3 p {
+    	margin-top: -.2vw;
     }
 
     .icon span {
@@ -317,38 +322,39 @@ menu {
     .icons_block :nth-child(3) div {
         background-image: url(images/box.png);
         background-position: center;
-        background-size: 7vw;}
+        background-size: 6.8vw;}
 
     .h1_block {
-        margin: 74px 0px 89px 79px;
+        margin: 4.68vw auto auto 4.95vw;
         color: #f73934;
     }
 
     h1 {
-        font-size: 99px;
+        font-size: 6.2vw;
         font-family: "Gotham Pro", sans-serif;
         font-weight: 500;
-        line-height: 64px;
-        letter-spacing: 5.5px;
+        line-height: 4.14vw;
+        letter-spacing: .45vw;
     }
     
     .midle {
         font-size: 59px;
         font-weight: 100;
-        margin-top: 7px;
-        letter-spacing: .3px;
+        margin-top: .5vw;
+        letter-spacing: 0;
     }
 
     .last {
         font-weight: 400;
-        font-size: 53px;
-        margin-top: -5px;
+        font-size: 3.55vw;
+        margin-top: -.4vw;
     }
 
     h1 span {
         font-weight: 900; 
         font-size: 87px;
-        letter-spacing: .3px; 
+        letter-spacing: 0;
+        margin-left: -.3vw; 
     }
 
     /* Block_two
@@ -361,7 +367,7 @@ menu {
     .gallery_left {
         display: flex;
         flex-direction: column;
-        width: 50%;
+        width: 50.5%;
         height: 45.7vw;
 
         background-image: url(images/gallery_block_left.jpg);
@@ -373,7 +379,7 @@ menu {
         display: flex;
         width: auto;
         height: 14.7vw;
-        margin-left: 7.7vw;
+        margin-left: 7.47vw;
         margin-top: 2.6vw;
 
         background-image: url(images/vk_inst_icon.png);
@@ -386,7 +392,7 @@ menu {
         flex-direction: column;
         color: black;
         font-size: 2.8vw;
-        margin-left: 6.5vw;
+        margin-left: 6.2vw;
         margin-top: 0.3vw;
         font-weight: bold;
         line-height: 3.8vw;
@@ -397,25 +403,27 @@ menu {
         width: 17vw;
         font-weight: 400;
         color: red;
-        padding: 0px .7vw 0px 1.1vw;
-        margin-left: -1.1vw;
+        padding: 0 .6vw .3vw .5vw;
+        margin-left: -.5vw;
 
         background-color: #ffffff;
     }
 
     .btn {
         display: inline-block;
-        width: 15.7vw;
-        vertical-align: top;
-        padding: 1.3vw .0vw;
-        margin: 2.9vw 1vw 0vw 6vw;
+        width: 16vw;
+        height: 4.5vw;
+
+        padding-left: .7vw;
+        padding-top: .4vw;
+        margin: 2.5vw 0 0 5.6vw;
         text-align: center;
         color: #f6f6f6;
         font-size: 1.5vw;
         letter-spacing: .23vw;
         text-decoration: none;
         text-transform: uppercase;
-        border: 2px solid #f6f6f6;
+        border: 3px solid #f6f6f6;
 
         background-color: rgba(0, 0, 0, 0.1);
 
@@ -430,13 +438,13 @@ menu {
     .gallery_right {
         display: flex;
         flex-wrap: wrap;
-        width: 47%;
-        margin: 1.5vw auto 1.5vw 1.5vw;
+        width: 47.5%;
+        margin: 1.7vw auto 1.6vw 1.58vw;
     }
     
     .gallery_right div {
         width: 32.3%;
-        height: 32.3%;
+        height: 32.1%;
         border: #d4d4d4;
         margin: .2vw;
     }
@@ -464,7 +472,8 @@ menu {
                 background-size: cover;}
             .gallery_img_8 {
                 background-image: url(images/gal_8.png);
-                background-size: cover;}
+                background-size: 111%;
+                background-position: -.65vw .1vw;}
             .gallery_img_9 {
                 background-image: url(images/gal_9.png);
                 background-size: cover;}
@@ -479,7 +488,7 @@ menu {
 
     .about_left {
         position: relative;
-        width: 50%;
+        width: 51%;
         height: 46vw;
 
         background: url(images/about_block_left.png);
@@ -490,7 +499,7 @@ menu {
     }
 
     .about_left h2 {
-        padding-left: 14.4vw;
+        padding-left: 14.7vw;
         padding-top: 10.6vw;
         color: white;
         font-size: 3.9vw;
@@ -500,7 +509,7 @@ menu {
     .about_left::after {
         content: ''; 
         position: absolute;
-        left: 99.8%; bottom: 58%; 
+        left: 99.8%; bottom: 57.5%; 
         border: 3vw solid transparent;
         border-left: 3vw solid #f01401;
 
@@ -513,9 +522,9 @@ menu {
         height: 4vw;
         color: white;
         font-size: 1.3vw;
-        margin-left: 5.8vw;
+        margin-left: 5.68vw;
         margin-top: 5.1vw;
-        line-height: 1.8vw;
+        line-height: 1.9vw;
     }
 
     .text_block::before {
@@ -533,8 +542,7 @@ menu {
     }
 
     .btn--about {
-        margin-top: 2.5vw;
-        margin-left: 5.7vw;
+        margin-top: 2.59vw;
     }
 /* ========================== 
 About_left */
@@ -545,11 +553,12 @@ About_left */
         height: 46vw;
     
         background: url(images/about_img.jpg);
-        background-size: cover;
+        background-size: 110.5%;
+        background-position: -2.5vw;
 
-        -moz-transition: all 3s ease-out;
-        -o-transition: all 3s ease-out;
-        -webkit-transition: all 3s ease-out;
+        -moz-transition: all 6s ease-out;
+        -o-transition: all 6s ease-out;
+        -webkit-transition: all 6s ease-out;
     }
 
     .about_right:hover {
@@ -567,14 +576,15 @@ About_left */
 }
 
     .summer_left {
-        width: 50%;
+        width: 51%;
 
         background: url(images/summer_left.jpg);
         background-repeat: no-repeat;
-        background-size: cover;
-        -moz-transition: all 3s ease-out;
-        -o-transition: all 3s ease-out;
-        -webkit-transition: all 3s ease-out;
+        background-size: 102%;
+        background-position: -.25vw -.44vw;
+        -moz-transition: all 6s ease-out;
+        -o-transition: all 6s ease-out;
+        -webkit-transition: all 6s ease-out;
     }
 
     .summer_left:hover {
@@ -597,20 +607,20 @@ About_left */
     .summer_right::after {
         content: ''; 
         position: absolute;
-        right: 99.8%; bottom: 39.5%; 
+        right: 99.8%; bottom: 38.5%; 
         border: 3vw solid transparent;
         border-right: 3vw solid #fed001;
     }
 
     .btn--summer {
-        margin-left: 0.9vw;
-        margin-top: 2.8vw;
+        margin-left: 1vw;
+        margin-top: 2.9vw;
         text-transform: uppercase;
     }
 
     .h2_summer {
-        margin-top: 30.8vw;
-        margin-left: 0px;
+        margin-top: 30.9vw;
+        margin-left: 1vw;
         letter-spacing: -.04vw;
         font-size: 4.4vw;
     }
@@ -638,7 +648,7 @@ background-color: #3c3c3c;
     .copirayte {
         position: relative;
         width: 17.1vw;
-        margin: 2.8vw auto 0 7.4vw;
+        margin: 2.9vw auto 0 7.1vw;
         font-family: Arial, Helvetica, sans-serif;
         font-size: .8vw;
         color: azure;
