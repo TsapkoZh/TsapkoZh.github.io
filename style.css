@@ -147,9 +147,10 @@ time, mark, audio, video {
 }
 
 html, body {
+    display: flex;
+
     max-width: 1560px;
     width: 100%;
-    display: flex;
     font-family: "Gotham Pro";
     color: #555;
     margin: 0 auto;
@@ -171,6 +172,7 @@ aside {
         flex-direction: column;
         justify-content: start;
         position: fixed;
+
         width: 150px;
         height: 100%;
         
@@ -195,6 +197,7 @@ aside {
     .navigation a {
         display: block;
         position: relative;
+
         text-decoration: none;
         color: #464646;
         cursor: pointer;
@@ -252,6 +255,7 @@ Sidebar */
 menu {
     display: flex;
     flex-direction: column;
+
     max-width: 1410px;
     width: 100%;
 }
@@ -262,6 +266,7 @@ menu {
     display: flex;
     flex-direction: column;
     position: relative;
+
     width: 100%;
     height: 42vw;
     font-family: "Gotham Pro";
@@ -273,6 +278,7 @@ menu {
     .icons_block {
         display: flex;
         flex-direction: row;
+
         margin-top: 4.8vw;
         margin-left: 4.5vw;
         text-align: center;
@@ -315,10 +321,12 @@ menu {
         background-image: url(images/photo.png);
         background-position: center;
         background-size: 7vw;}
+
     .icons_block :nth-child(2) div {
         background-image: url(images/heart.png);
         background-position: center;
         background-size: 7vw;}
+
     .icons_block :nth-child(3) div {
         background-image: url(images/box.png);
         background-position: center;
@@ -367,6 +375,7 @@ menu {
     .gallery_left {
         display: flex;
         flex-direction: column;
+
         width: 50.5%;
         height: 45.7vw;
 
@@ -377,6 +386,7 @@ menu {
 
     .vk_icon {
         display: flex;
+
         width: auto;
         height: 14.7vw;
         margin-left: 7.47vw;
@@ -390,6 +400,7 @@ menu {
     h2 {
         display: flex;
         flex-direction: column;
+
         color: black;
         font-size: 2.8vw;
         margin-left: 6.2vw;
@@ -399,6 +410,7 @@ menu {
     }
     h2 span {
         display: inline-block;
+
         line-height: 3.6vw;
         width: 17vw;
         font-weight: 400;
@@ -411,6 +423,7 @@ menu {
 
     .btn {
         display: inline-block;
+
         width: 16vw;
         height: 4.5vw;
 
@@ -438,6 +451,7 @@ menu {
     .gallery_right {
         display: flex;
         flex-wrap: wrap;
+
         width: 47.5%;
         margin: 1.7vw auto 1.6vw 1.58vw;
     }
@@ -452,42 +466,54 @@ menu {
             .gallery_img_1 {
                 background-image: url(images/gal_1.png);
                 background-size: cover;}
+
             .gallery_img_2 {
                 background-image: url(images/gal_2.png);
                 background-size: cover;}
+
             .gallery_img_3 {
                 background-image: url(images/gal_3.png);
                 background-size: cover;}
+
             .gallery_img_4 {
                 background-image: url(images/gal_4.png);
                 background-size: cover;}
+
             .gallery_img_5 {
                 background-image: url(images/gal_5.png);
                 background-size: cover;}
+
             .gallery_img_6 {
                 background-image: url(images/gal_6.png);
                 background-size: cover;}
+
             .gallery_img_7 {
                 background-image: url(images/gal_7.png);
                 background-size: cover;}
+
             .gallery_img_8 {
                 background-image: url(images/gal_8.png);
                 background-size: 111%;
                 background-position: -.65vw .1vw;}
+
             .gallery_img_9 {
                 background-image: url(images/gal_9.png);
                 background-size: cover;}
+
+
 
 /* Block_three
 ========================== */ 
 .block_three {
     display: flex;
-    width: 100%;
     overflow: hidden;
+
+    width: 100%;
 }
 
     .about_left {
         position: relative;
+
         width: 51%;
         height: 46vw;
 
@@ -509,6 +535,7 @@ menu {
     .about_left::after {
         content: ''; 
         position: absolute;
+
         left: 99.8%; bottom: 57.5%; 
         border: 3vw solid transparent;
         border-left: 3vw solid #f01401;
@@ -518,6 +545,7 @@ menu {
 
     .text_block {
         position: relative;
+
         width: 32vw;
         height: 4vw;
         color: white;
@@ -549,6 +577,7 @@ About_left */
 
     .about_right {
         display: block;
+
         width: 50%;
         height: 46vw;
     
@@ -562,41 +591,46 @@ About_left */
         -webkit-transition: all 10s ease-out;
     }
 
-    .about_right:hover {
+    .block_three:hover .about_right {
         -webkit-transform: scale(1.22);
         -moz-transform: scale(1.22);
         -o-transform: scale(1.22);
     }
 
+
+
 /* Block_four
 ========================== */ 
 .block_four {
     display: flex;
-    width: 100%;
     overflow: hidden;
+
+    width: 100%;
 }
 
     .summer_left {
         width: 51%;
+        transform: scale(1.01);
 
         background: url(images/summer_left.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        transform: scale(1.01);
         background-position: .15vw -.24vw;
+
         -moz-transition: all 10s ease-out;
         -o-transition: all 10s ease-out;
         -webkit-transition: all 10s ease-out;
     }
 
-    .summer_left:hover {
+    .block_four:hover .summer_left {
         -webkit-transform: scale(1.17);
         -moz-transform: scale(1.17);
         -o-transform: scale(1.17);
     }
 
     .summer_right {
-    	position: relative;
+        position: relative;
+        
         width: 50%;
         height: 46vw;
         text-align: center;
@@ -609,7 +643,9 @@ About_left */
     .summer_right::after {
         content: ''; 
         position: absolute;
-        right: 99.8%; bottom: 38.5%; 
+
+        right: 99.8%;
+        bottom: 38.5%; 
         border: 3vw solid transparent;
         border-right: 3vw solid #fed001;
     }
@@ -630,6 +666,7 @@ About_left */
 footer {
 display: flex;
 justify-content: flex-start;
+
 width: 100%;
 height: 6.3vw;
 
@@ -649,6 +686,7 @@ background-color: #3c3c3c;
 
     .copirayte {
         position: relative;
+
         width: 17.1vw;
         margin: 2.9vw auto 0 7.1vw;
         font-family: Arial, Helvetica, sans-serif;
@@ -661,6 +699,7 @@ background-color: #3c3c3c;
         display: block;
         content: "";
         position: absolute;
+        
         top: -1.6vw;
         left: -5vw;
         width: 4.2vw;
@@ -712,14 +751,15 @@ body {
 }
 
     .icon_wrap {
+        overflow: visible;
+
         width: 125px;
         height: 125px;
         text-align: center;
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
         border-radius: 50%;
-        overflow: visible;
-
+    
         background-color: white;
     }
 
@@ -750,8 +790,10 @@ body {
 
     .icons_block :nth-child(1) div {
         background-size: 125px;}
+
     .icons_block :nth-child(2) div {
         background-size: 125px;}
+
     .icons_block :nth-child(3) div {
         background-size: 125px;}
 
@@ -788,6 +830,8 @@ body {
         padding-top: 69px;
         margin: 0 0;
     }
+
+
 
 /* Block_two
 ========================== */
@@ -847,6 +891,8 @@ body {
         margin: 4px;
     }
 
+
+
 /* Block_three
 ========================== */ 
     .about_left {
@@ -886,8 +932,11 @@ body {
 
     .about_right {
         height: 715px;
+
         background-size: cover;
     }
+
+
 
 /* Block_four
 ========================== */ 
@@ -906,6 +955,8 @@ body {
         letter-spacing: -0.8px;
         font-size: 69px;
     }
+
+
 
 footer {
     height: 100px;
@@ -930,6 +981,8 @@ footer {
     }
 }
 
+
+
 @media (max-width: 1400px) {
 
 /* block_one
@@ -941,8 +994,6 @@ menu {
     .block_one {
         height: 41.5vw;
     }
-
-
 
     .icon_wrap {
         height: 7.8vw;
@@ -998,6 +1049,8 @@ menu {
         margin-left: 0; 
     }
 
+
+
 /* block_two
 ====================== */
 .block_two {
@@ -1016,7 +1069,7 @@ menu {
     }
     
     .gallery_right {
-         margin: 1.7vw auto 1.75vw 1.76vw;
+        margin: 1.7vw auto 1.75vw 1.76vw;
      }
             
     .gallery_right div {
@@ -1052,7 +1105,8 @@ menu {
     }
 
     .about_right {
-    	transform: scale(1.11);
+        transform: scale(1.11);
+        
     	background-size: cover;
     	background-repeat: no-repeat;
     	background-position: center;
@@ -1070,7 +1124,7 @@ menu {
     	width: 15.85vw;
     	margin-top: 2.65vw;
     	margin-left: 1.4vw;
-       padding: 1.4vw 3.6vw;
+        padding: 1.4vw 3.6vw;
     }
 
     .summer_right {
@@ -1083,6 +1137,8 @@ menu {
         letter-spacing: -.08vw;
         font-size: 4.42vw;
     }
+
+
 
 footer {
     height: max-content;
@@ -1101,6 +1157,8 @@ footer {
             
 }
 
+
+
 @media (max-width: 825px) {
     .gallery_right {
         margin: 1.5vw auto 1.5vw 1.5vw;
@@ -1111,6 +1169,8 @@ footer {
        height: 32.2%;
     } 
 }
+
+
 
 @media (max-width: 680px) {
 
@@ -1127,14 +1187,17 @@ footer {
     width: 100%;
     height: 25.1vw;
 }
-    
+ 
+
+
 /* burger_menu
 ====================== */
 .wrapper {
     position: fixed;
     width: 100%;
-    z-index: 300;
     flex: auto;
+
+    z-index: 300;
 }
 
     .wrapper_inner {
@@ -1156,10 +1219,10 @@ footer {
         left: 6vw;
         width: 17.5vw;
         height: 17.5vw;
+
         background-image: url(images/Ls.png);
         background-repeat: no-repeat;
         background-size: contain;
-
     }
 
     #check_menu {
@@ -1177,6 +1240,7 @@ footer {
         text-align:inherit;
         line-height: 24vw;
         font-weight: 500;
+
         cursor: pointer;
         z-index: 300;
     }
@@ -1187,6 +1251,7 @@ footer {
         right: 7.5vw;
         width: 10.1vw;
         height: 1.4vw;
+
         background-color: #c43f45;
         transition: .2s;
     }
@@ -1202,14 +1267,15 @@ footer {
     .main_menu {
         display: block;
         position: absolute;
+        overflow: hidden;
         width: 100%;
+        max-height: 0;
         bottom: 0;
         left: 0;
         transform: translateY(100%);
-        max-height: 0;
         font-size: 3vw;
+
         z-index: 10;
-        overflow: hidden;
         transition: .3s;
     }
 
@@ -1224,40 +1290,41 @@ footer {
         background-color: white;
         background-repeat: no-repeat;
         background-size: 13vw;
-     	background-position: 9vw 4vw;
+        background-position: 9vw 4vw;
+         
         z-index: 10;
     }
 
     .main_one {
         background-image: url(images/Ph.png);}
+
     .main_two {
     	background-position: 9vw 2vw;
         background-image: url(images/Se.png);}
+
     .main_tree {
         background-image: url(images/Pp.png);}
 
     #check_menu:checked ~ .main_menu {
         max-height: 100vw;
-        font-size: 3vw;
-    }
+        font-size: 3vw;}
 
     #check_menu:checked ~ .first {
-        display: none;
-    }
+        display: none;}
 
     #check_menu:checked ~ .second {
-        transform: rotate(45deg);
-    }
+        transform: rotate(45deg);}
 
     #check_menu:checked ~ .third {
-        transform: rotate(-45deg);
-    }
+        transform: rotate(-45deg);}
 
     #check_menu:checked ~ .fourth {
         display: none;
     }
 /* ======================
 burger_menu */
+
+
 
 /* Block_one
 ========================== */
@@ -1267,6 +1334,7 @@ burger_menu */
 
 .block_one {
     height: 172.6vw;
+
     background-size: 225%;
     background-position: -106.7vw 69.6vw;
     background-repeat: no-repeat;
@@ -1326,10 +1394,13 @@ burger_menu */
 
     .icons_block :nth-child(1) div {
         background-size: 16.5vw;}
+
     .icons_block :nth-child(2) div {
         background-size: 16.5vw;}
+
     .icons_block :nth-child(3) div {
         background-size: 16.5vw;}
+
 
     .h1_block {
         margin: 8.62vw 27vw .6vw auto;
@@ -1366,6 +1437,8 @@ burger_menu */
         margin-left: 1vw;
     }
 
+
+
 /* Block_two
 ========================== */
     .block_two {
@@ -1378,8 +1451,10 @@ burger_menu */
     .gallery_left {
         display: flex;
         flex-wrap: wrap;
+
         width: 100%;
         height: 100.94vw;
+
         background-size: 105%;
         background-position:  5vw -2.65vw;
     }
@@ -1387,13 +1462,13 @@ burger_menu */
     .vk_icon {
         display: flex;
         width: auto;
+
         height: 39vw;
         margin-left: 14.1vw;
         margin-top: 6.6vw;
     }
 
     h2 {
-
         font-size: 6.3vw;
         margin-left: 10.99vw;
         margin-top: 1.99vw;
@@ -1419,6 +1494,7 @@ burger_menu */
 
     .gallery_right {
         position: relative;
+
         width: 91.4%;
         height: 91.7vw;
         padding: 4.46vw 4vw 4.5vw 4.35vw;
@@ -1428,6 +1504,7 @@ burger_menu */
     .gallery_right::before {
         content: ''; 
         position: absolute;
+
         left: 43.66%;
         top: -13.5%; 
         border: 8vw solid transparent;
@@ -1480,6 +1557,7 @@ burger_menu */
         content: "";
         position: absolute;
         display: block;
+
         top: -10.8vw;
         left: 46.6vw;
         width: 31vw;
@@ -1492,7 +1570,8 @@ burger_menu */
     }
 
     .about_right {
-    	position: relative;
+        position: relative;
+        
         width: 100%;
         height: 99.1vw;
     }
@@ -1500,6 +1579,7 @@ burger_menu */
         .about_right::before {
         content: ''; 
         position: absolute;
+
         left: 44%;
         top: -13.8%; 
         border: 7vw solid transparent;
@@ -1507,6 +1587,8 @@ burger_menu */
 
         z-index: 250;
     }
+
+
 
 /* Block_four
 ========================== */ 
@@ -1517,6 +1599,7 @@ burger_menu */
 
     .summer_left {
         position: relative;
+
         width: 100%;
         height: 101.1vw;
     }
@@ -1524,6 +1607,7 @@ burger_menu */
     .summer_left::before {
         content: ''; 
         position: absolute;
+
         left: 44%;
         top: -13.8%; 
         border: 7vw solid transparent;
@@ -1535,6 +1619,7 @@ burger_menu */
     .summer_right {
         display: flex;
         flex-direction: column;
+
         width: 100%;
         height: 100.2vw;
     }
@@ -1553,6 +1638,8 @@ burger_menu */
         font-size: 9.4vw;
     }
 
+
+    
 footer {
 width: 100%;
 height: 13.2vw;
