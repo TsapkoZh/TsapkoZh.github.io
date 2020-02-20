@@ -562,9 +562,9 @@ About_left */
     }
 
     .about_right:hover {
-        -webkit-transform: scale(.87);
-        -moz-transform: scale(.87);
-        -o-transform: scale(.87);
+        -webkit-transform: scale(1.17);
+        -moz-transform: scale(1.17);
+        -o-transform: scale(1.17);
     }
 
 /* Block_four
@@ -588,9 +588,9 @@ About_left */
     }
 
     .summer_left:hover {
-        -webkit-transform: scale(.87);
-        -moz-transform: scale(.87);
-        -o-transform: scale(.87);
+        -webkit-transform: scale(1.17);
+        -moz-transform: scale(1.17);
+        -o-transform: scale(1.17);
     }
 
     .summer_right {
