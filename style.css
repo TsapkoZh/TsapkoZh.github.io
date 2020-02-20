@@ -1263,19 +1263,22 @@ burger_menu */
 ========================== */
 .block_one {
     height: 172.6vw;
-    background-size: cover;
-    background-position: 20%;
+    background-size: 225%;
+    background-color: #6AAAD9;
+/*     background: linear-gradient(45deg, #c15309, #C5DDE8); */
+    background-position: -106.7vw 69.6vw;
+    background-repeat: no-repeat;
  }
 
     .icons_block {
         display: flex;
-        margin-top: 6.4vw;
+        margin-top: 6.65vw;
         margin-left: 5.5vw;
         margin-right: auto;
     }
 
     .icon div{
-        width: 20.2vw;
+        width: 20.3vw;
         margin: 0 4.4vw;
     }
 
@@ -1299,6 +1302,10 @@ burger_menu */
         margin-left: -1.7vw;
     }
 
+    .icon_1 p {
+    	padding-top: 2.9vw;
+    }
+
     .icon_2 p {
         padding-top: 3vw;
         letter-spacing: -0.1px;
@@ -1306,8 +1313,9 @@ burger_menu */
     }
 
     .icon_3 p {
-        letter-spacing: -0.1px;
-        margin-left: .7vw;
+    	padding-top: 2.45vw;
+        letter-spacing: .15px;
+        margin-left: .5vw;
     }
 
     .icon span {
@@ -1322,7 +1330,7 @@ burger_menu */
         background-size: 16.5vw;}
 
     .h1_block {
-        margin: 8.2vw 27vw 1vw auto;
+        margin: 8.62vw 27vw .6vw auto;
         color: #f73934;
         order: -1;
         text-align: center;
@@ -1339,7 +1347,7 @@ burger_menu */
         font-size: 7.7vw;
         font-weight: 100;
         margin-top: .7vw;
-        margin-left: -1.3vw;
+        margin-left: -1.7vw;
         letter-spacing: .4vw;
     }
 
@@ -1347,12 +1355,13 @@ burger_menu */
         font-weight: 400;
         font-size: 7.7vw;
         margin-top: -1.4vw;
-        margin-left: -2.1vw;
+        margin-left: -2.9vw;
     }
 
     h1 span {
         font-weight: 900; 
         font-size: 12vw;
+        margin-left: 1vw;
     }
 
 /* Block_two
