@@ -556,15 +556,15 @@ About_left */
         background-size: 110.5%;
         background-position: -2.5vw;
 
-        -moz-transition: all 6s ease-out;
-        -o-transition: all 6s ease-out;
-        -webkit-transition: all 6s ease-out;
+        -moz-transition: all 10s ease-out;
+        -o-transition: all 10s ease-out;
+        -webkit-transition: all 10s ease-out;
     }
 
     .about_right:hover {
-        -webkit-transform: scale(1.2);
-        -moz-transform: scale(1.2);
-        -o-transform: scale(1.2);
+        -webkit-transform: scale(.87);
+        -moz-transform: scale(.87);
+        -o-transform: scale(.87);
     }
 
 /* Block_four
@@ -582,15 +582,15 @@ About_left */
         background-repeat: no-repeat;
         background-size: 102%;
         background-position: -.25vw -.44vw;
-        -moz-transition: all 6s ease-out;
-        -o-transition: all 6s ease-out;
-        -webkit-transition: all 6s ease-out;
+        -moz-transition: all 10s ease-out;
+        -o-transition: all 10s ease-out;
+        -webkit-transition: all 10s ease-out;
     }
 
     .summer_left:hover {
-        -webkit-transform: scale(1.2);
-        -moz-transform: scale(1.2);
-        -o-transform: scale(1.2);
+        -webkit-transform: scale(.87);
+        -moz-transform: scale(.87);
+        -o-transform: scale(.87);
     }
 
     .summer_right {
