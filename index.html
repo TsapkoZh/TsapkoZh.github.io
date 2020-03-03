@@ -5,6 +5,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
         <title>Lay's Yellow Trend</title>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+        <script type="text/javascript">
+            var zero = 0;
+            $(document).ready(function(){
+                $(window).on('scroll', function(){
+                    $('.wrapper').toggleClass('hide', $(window).scrollTop()
+                    > zero);
+                    zero = $(window).scrollTop();
+                })
+            })
+        </script>
     </head>
 
 
@@ -31,10 +43,20 @@
                 <div class="burger_line second"></div>
                 <div class="burger_line third"></div>
                 <div class="burger_line fourth"></div>
-                <nav class="main_menu">
+                
+                <nav class="main_menu_one">
                     <a class="main main_one" href="#">Галерея</a>
+                </nav>
+
+                <nav class="main_menu_two">
                     <a class="main main_two" href="#">О проекте</a>
+                </nav>
+
+                <nav class="main_menu_tree">
                     <a class="main main_tree" href="#">#летосLays</a>
+                </nav>
+
+                <nav class="main_menu_four">
                     <a class="main main_four" href="#">свернуть меню</a>
                 </nav>
             </div>

@@ -424,7 +424,7 @@ menu {
 
         background-color: rgba(0, 0, 0, 0.1);
 
-        transition: .6s;
+        transition: background .5s linear, color .5s linear, border .5s;
     }
 
     .btn:hover {
@@ -1245,6 +1245,10 @@ footer {
     z-index: 300;
 }
 
+.wrapper.hide {
+    transform: translateY(-100%);
+}
+
 .wrapper_inner {
     display: block;
     position: relative;
@@ -1313,55 +1317,96 @@ footer {
         top: 15vw;
     }
 
-    .main_menu {
+    .main_menu_one, .main_menu_tree,
+    .main_menu_two, .main_menu_four {
         display: block;
         position: absolute;
-        overflow: hidden;
-
-        width: 100%;
-        max-height: 0;
-        bottom: 0;
-        left: 0;
-        transform: translateY(100%);
+        
+        max-width: 100%;
+        max-height: 100vw;
         font-size: 3vw;
 
-        z-index: 10;
-        transition: .3s;
+        z-index: 100;
+        transition: .7s;
     }
+
+    .main_menu_one {
+        left: -199vw;
+        top: 25.5vw;
+        transform: translateX(100%);
+        max-height: 0;
+        opacity: .0;
+    }
+
+     .main_menu_two {
+        left: 1vw;
+        top: 47.3vw;
+        transform: translateX(100%);
+        max-height: 0;
+        opacity: .0;
+    }
+
+    .main_menu_tree {
+        left: -199vw;
+        top: 69.2vw;
+        transform: translateX(100%);
+        max-height: 0;
+        opacity: .0;
+    }
+
+    .main_menu_four {
+        left: 1vw;
+        top: 91.2vw;
+        transform: translateX(100%);
+        max-height: 0;
+        opacity: .0;
+    }
+
 
     .main {
         display: block;
-
-        width: 100%;
+        width: 82vw;
         padding: 9vw;
         color: black;
         text-decoration: none;
         border-top: 1px solid;
-
+        border-color: rgba(0, 0, 0, 0.1);
+        
         background-color: white;
         background-repeat: no-repeat;
         background-size: 13vw;
         background-position: 9vw 4vw;
-
+         
         z-index: 10;
     }
 
     .main_one {
-        background-image: url(images/Ph.png);
-    }
-
+        background-image: url(images/Ph.png);}
     .main_two {
-        background-position: 9vw 2vw;
-        background-image: url(images/Se.png);
-    }
-
+    	background-position: 9vw 2vw;
+        background-image: url(images/Se.png);}
     .main_tree {
-        background-image: url(images/Pp.png);
+        background-image: url(images/Pp.png);}
+
+    #check_menu:checked ~ .main_menu_one {
+        left: -100vw;
+        opacity: 1;
     }
 
-    #check_menu:checked ~ .main_menu {
-        max-height: 100vw;
-        font-size: 3vw;
+    #check_menu:checked ~ .main_menu_two {
+        left: -100vw;
+        color: white;
+        opacity: 1;
+    }
+
+    #check_menu:checked ~ .main_menu_tree {
+        left: -100vw;
+        opacity: 1;
+    }
+
+    #check_menu:checked ~ .main_menu_four {
+        left: -100vw;
+        opacity: 1;
     }
 
     #check_menu:checked ~ .first {
