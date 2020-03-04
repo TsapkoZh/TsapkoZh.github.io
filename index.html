@@ -4,13 +4,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="animate.css">
         <title>Lay's Yellow Trend</title>
 
-        <script src="js/wow.min.js"></script>
-        <script>
-        new WOW().init();
-        </script>
         <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
 
         <script type="text/javascript">
@@ -31,10 +26,30 @@
                 if (st > lastScrollTop){
                     document.getElementById("check_menu").checked = false;
                 } else {
-                    // upscroll code
+                    // upscroll
                 }
                 lastScrollTop = st;
                 });
+        </script>
+
+        <script>
+            $(document).on('scroll', function(){
+                var scroll_top = $(document).scrollTop();
+                if(scroll_top >= 0) {
+                    $('.block_one').addClass('block_one_swipe');
+                    $('.block_two').addClass('block_two_swipe');
+                }   
+            });
+        </script>
+
+        <script>
+            $(document).on('scroll', function(){
+                var scroll_top = $(document).scrollTop();
+                if(scroll_top >= 1200) {
+                    $('.summer_left_under').addClass('hide_one');
+                    $('.summer_right').addClass('hide_one');
+                }   
+            });
         </script>
     </head>
 
@@ -89,7 +104,7 @@
             </div>
             
             <div class="block_one_gradient">
-            <div class="block_one animated fadeInRight">
+            <div class="block_one">
 
                 <div class="icons_block">
                     <div class="icon icon_1">
@@ -133,7 +148,7 @@
 
 
 
-            <div class="block_two wow animated fadeInLeft">
+            <div class="block_two">
 
                 <div class="gallery_left">
                     <div class="vk_icon"><!--is empty--></div>
@@ -166,7 +181,7 @@
 
             <div class="block_three">
 
-                <div class="about_left wow animated fadeInLeft">
+                <div class="about_left">
                     <h2>
                         Выиграй<br>
                         призы<br>
@@ -181,7 +196,7 @@
                     <button class="btn btn--about" href="#">О ПРОЕКТЕ</button>
                 </div>
 
-                <div class="about_right wow animated fadeInRight"><!--is empty--></div>
+                <div class="about_right"><!--is empty--></div>
 
             </div> <!--block_three-->
 
@@ -189,11 +204,11 @@
 
             <div class="block_four">
 
-                <div class="summer_left wow animated fadeInLeft">
+                <div class="summer_left">
                     <!--is empty-->
                 </div>
 
-                <div class="summer_right wow animated fadeInRight">
+                <div class="summer_right">
                     <h2 class="h2_summer">Лето с Lay's</h2>
                     <button class="btn btn--summer" href="#">перейти</button>
                 </div>

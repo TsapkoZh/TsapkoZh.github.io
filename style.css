@@ -260,6 +260,17 @@ menu {
 
     background-image: url(images/lays.jpg);
     background-size: cover;
+    transform: translateX(-100%);
+    opacity: 0;
+
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+}
+
+.block_one_swipe {
+    transform: translateX(0%);
+    opacity: 1;
 }
 
     .icons_block {
@@ -364,6 +375,17 @@ menu {
     width: 100%;
 
     background-color: white;
+    transform: translateX(100%);
+    opacity: 0;
+
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+}
+
+.block_two_swipe {
+    transform: translateX(0%);
+    opacity: 1;
 }
 
     .gallery_left {
