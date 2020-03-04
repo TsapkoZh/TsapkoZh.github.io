@@ -641,8 +641,12 @@ menu {
     width: 100%;
 }
 
-    .summer_left {
+    .summer_left_external {
         width: 51%;
+    }
+
+    .summer_left {
+        width: 100%;
         transform: scale(1.01);
 
         background: url(images/summer_left.jpg);
