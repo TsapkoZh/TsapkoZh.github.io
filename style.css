@@ -260,7 +260,7 @@ menu {
 
     background-image: url(images/lays.jpg);
     background-size: cover;
-    transform: translateX(-100%);
+    transform: translateX(100%);
     opacity: 0;
 
     -moz-transition: all 1s ease-out;
@@ -375,7 +375,7 @@ menu {
     width: 100%;
 
     background-color: white;
-    transform: translateX(100%);
+    transform: translateX(-100%);
     opacity: 0;
 
     -moz-transition: all 1s ease-out;
