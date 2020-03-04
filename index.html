@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="images/favicons.ico?">
         <title>Lay's Yellow Trend</title>
 
         <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
@@ -33,29 +34,26 @@
         </script>
 
         <script>
-            $(document).on('scroll', function(){
-                var scroll_top = $(document).scrollTop();
-                if(scroll_top > 0) {
-                    $('.block_one').addClass('block_one_swipe');
-                    $('.block_two').addClass('block_two_swipe');
-                }   
-            });
+            window.onload = function() {
+                $('.block_one').addClass('block_one_swipe');
+                $('.block_two').addClass('block_two_swipe');
+            };
         </script>
-
-        <!-- <script>
-            $(document).on('scroll', function(){
-                var scroll_top = $(document).scrollTop();
-                if(scroll_top >= 1200) {
-                    $('.summer_left_under').addClass('hide_one');
-                    $('.summer_right').addClass('hide_one');
-                }   
-            });
-        </script> -->
 
         <script>
             $(document).on('scroll', function(){
                 var scroll_top = $(document).scrollTop();
-                if(scroll_top >= 1300) {
+                if(scroll_top >= 700) {
+                    $('.about_right_external').addClass('about_right_swipe');
+                    $('.about_left').addClass('about_left_swipe');
+                }   
+            });
+        </script>
+
+        <script>
+            $(document).on('scroll', function(){
+                var scroll_top = $(document).scrollTop();
+                if(scroll_top >= 1200) {
                     $('.summer_left_external').addClass('summer_left_swipe');
                     $('.summer_right').addClass('summer_right_swipe');
                 }   
