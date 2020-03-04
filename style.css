@@ -652,8 +652,8 @@ menu {
         transform: translateX(100%);
         opacity: 0;
     }
-    
-    .summer_swipe {
+
+    .summer_left_swipe {
         transform: translateX(0%);
         opacity: 1;
     }
@@ -698,7 +698,7 @@ menu {
         opacity: 0;
     }
 
-    .summer_swipe {
+    .summer_right_swipe {
         transform: translateX(0%);
         opacity: 1;
     }
