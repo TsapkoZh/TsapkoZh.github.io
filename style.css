@@ -643,6 +643,19 @@ menu {
 
     .summer_left_external {
         width: 51%;
+        transform: translateX(-100%);
+
+        -moz-transition: all 1s ease-out;
+        -o-transition: all 1s ease-out;
+        -webkit-transition: all 1s ease-out;
+
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    
+    .summer_swipe {
+        transform: translateX(0%);
+        opacity: 1;
     }
 
     .summer_left {
@@ -676,6 +689,18 @@ menu {
         background: url(images/lays_block.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+
+        -moz-transition: all 1s ease-out;
+        -o-transition: all 1s ease-out;
+        -webkit-transition: all 1s ease-out;
+
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    .summer_swipe {
+        transform: translateX(0%);
+        opacity: 1;
     }
 
     .summer_right::after {

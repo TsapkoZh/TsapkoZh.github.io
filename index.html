@@ -51,6 +51,16 @@
                 }   
             });
         </script>
+
+        <script>
+            $(document).on('scroll', function(){
+                var scroll_top = $(document).scrollTop();
+                if(scroll_top >= 1500) {
+                    $('.summer_left_external').addClass('summer_swipe');
+                    $('.summer_right').addClass('summer_swipe');
+                }   
+            });
+        </script>
     </head>
 
 
