@@ -6,7 +6,12 @@
         <link rel="stylesheet" href="style.css">
         <title>Lay's Yellow Trend</title>
 
+        <script src="wow.min.js"></script>
+        <script>
+        new WOW().init();
+        </script>
         <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+
         <script type="text/javascript">
             var zero = 0;
             $(document).ready(function(){
@@ -16,6 +21,19 @@
                     zero = $(window).scrollTop();
                 })
             })
+        </script>
+
+        <script>
+            var lastScrollTop = 0;
+                $(window).scroll(function(event){
+                var st = $(this).scrollTop();
+                if (st > lastScrollTop){
+                    document.getElementById("check_menu").checked = false;
+                } else {
+                    // upscroll code
+                }
+                lastScrollTop = st;
+                });
         </script>
     </head>
 
@@ -39,10 +57,10 @@
             <div class="wrapper_inner">
                 <input type="checkbox" id="check_menu">
                 <label for="check_menu">#летосLays</label>
-                <div class="burger_line first"></div>
-                <div class="burger_line second"></div>
-                <div class="burger_line third"></div>
-                <div class="burger_line fourth"></div>
+                <div class="burger_line first"><!--is empty--></div>
+                <div class="burger_line second"><!--is empty--></div>
+                <div class="burger_line third"><!--is empty--></div>
+                <div class="burger_line fourth"><!--is empty--></div>
                 
                 <nav class="main_menu_one">
                     <a class="main main_one" href="#">Галерея</a>
@@ -70,7 +88,7 @@
             </div>
             
             <div class="block_one_gradient">
-            <div class="block_one">
+            <div class="block_one animated fadeInRight">
 
                 <div class="icons_block">
                     <div class="icon icon_1">
@@ -83,7 +101,7 @@
                     </div>
 
                     <div class="icon icon_2">
-                        <div class="icon_wrap"></div>
+                        <div class="icon_wrap"><!--is empty--></div>
                         <p>
                             Собирай<br>
                             лайки<br>
@@ -110,11 +128,11 @@
                 </div>
 
             </div> <!--block_one-->
-            </div>
+            </div> <!--block_one_gradient-->
 
 
 
-            <div class="block_two">
+            <div class="block_two animated fadeInLeft">
 
                 <div class="gallery_left">
                     <div class="vk_icon"><!--is empty--></div>
@@ -147,7 +165,7 @@
 
             <div class="block_three">
 
-                <div class="about_left">
+                <div class="about_left animated fadeInLeft">
                     <h2>
                         Выиграй<br>
                         призы<br>
@@ -162,7 +180,7 @@
                     <button class="btn btn--about" href="#">О ПРОЕКТЕ</button>
                 </div>
 
-                <div class="about_right"><!--is empty--></div>
+                <div class="about_right animated fadeInRight"><!--is empty--></div>
 
             </div> <!--block_three-->
 
@@ -170,11 +188,11 @@
 
             <div class="block_four">
 
-                <div class="summer_left">
+                <div class="summer_left animated fadeInLeft">
                     <!--is empty-->
                 </div>
 
-                <div class="summer_right">
+                <div class="summer_right animated fadeInRight">
                     <h2 class="h2_summer">Лето с Lay's</h2>
                     <button class="btn btn--summer" href="#">перейти</button>
                 </div>
