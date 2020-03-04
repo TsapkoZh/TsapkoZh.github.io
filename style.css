@@ -1732,8 +1732,6 @@ footer {
     .about_left {
         width: 100%;
         height: 104.8vw;
-
-        z-index: -1;
     }
 
     .about_left br {
@@ -1800,7 +1798,7 @@ footer {
         position: absolute;
 
         left: 43.66%;
-        top: 82.5%;
+        top: 87.5%;
         border: 7vw solid transparent;
         border-bottom: 7vw solid #2570cb;
 
