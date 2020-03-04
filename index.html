@@ -35,7 +35,7 @@
         <script>
             $(document).on('scroll', function(){
                 var scroll_top = $(document).scrollTop();
-                if(scroll_top >= -1) {
+                if(scroll_top > 0) {
                     $('.block_one').addClass('block_one_swipe');
                     $('.block_two').addClass('block_two_swipe');
                 }   
