@@ -6,8 +6,9 @@
         <link rel="stylesheet" href="style.css">
         <link rel="shortcut icon" href="images/favicons.ico?">
         <title>Lay's Yellow Trend</title>
-
         <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+
+
 
         <script type="text/javascript">
             var zero = 0;
@@ -18,8 +19,16 @@
                     zero = $(window).scrollTop();
                 })
             })
-        </script>
+        </script> <!-- MobilmenuHide -->
 
+
+
+<!-- MobilMenu -->
+        <script>
+            let event = new Event("click");
+            main_four.dispatchEvent(event);
+        </script>
+    
         <script>
             var lastScrollTop = 0;
                 $(window).scroll(function(event){
@@ -31,8 +40,11 @@
                 }
                 lastScrollTop = st;
                 });
-        </script>
+        </script> <!-- MobilMenu -->
 
+
+
+<!-- AnimBlockSwipe -->
         <script>
             window.onload = function() {
                 $('.block_one').addClass('block_one_swipe');
@@ -58,7 +70,7 @@
                     $('.summer_right').addClass('summer_right_swipe');
                 }   
             });
-        </script>
+        </script> <!-- AnimBlockSwipe -->
     </head>
 
 
@@ -99,7 +111,7 @@
                 </nav>
 
                 <nav class="main_menu_four">
-                    <a class="main main_four" href="#">свернуть меню</a>
+                    <button id="main_four" onclick="document.getElementById('check_menu').checked = false;">свернуть меню</button>
                 </nav>
             </div>
         </div>
