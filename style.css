@@ -1464,7 +1464,6 @@ footer {
     .main_menu_one {
         left: -199vw;
         top: 24.47vw;
-        max-height: 0;
 
         transform: translateX(100%);
         opacity: .0;
@@ -1473,7 +1472,6 @@ footer {
     .main_menu_two {
         left: 1vw;
         top: 46.3vw;
-        max-height: 0;
 
         transform: translateX(100%);
         opacity: .0;
@@ -1482,7 +1480,6 @@ footer {
     .main_menu_tree {
         left: -199vw;
         top: 68vw;
-        max-height: 0;
 
         transform: translateX(100%);
         opacity: .0;
