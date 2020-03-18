@@ -1371,10 +1371,11 @@ ruby, section, summary, time, mark, audio, video {
 }
 
 .nav-bar-mobil__btn {
-    font-size: 6.1vw;
+    font-size: 5.1vw;
     color: red;
     font-weight: 500;
-    padding: 6vw 0;
+    padding: 7vw 0;
+    letter-spacing: .2vw;
 
     transition-delay: .2s;
 }
