@@ -113,6 +113,7 @@ ruby, section, summary, time, mark, audio, video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    list-style-type: none;
 }
 
 *, *:before *:after {
@@ -121,10 +122,8 @@ ruby, section, summary, time, mark, audio, video {
 
 .site {
     display: flex;
-    
     max-width: 1920px;
     width: 100%;
-
     font-family: "Gotham Pro";
     color: #555;
     margin: 0 auto;
@@ -137,7 +136,6 @@ ruby, section, summary, time, mark, audio, video {
 .site__main {
     display: flex;
     flex-direction: column;
-
     background-color: #fed001;
 }
 
@@ -152,10 +150,8 @@ ruby, section, summary, time, mark, audio, video {
     flex-direction: column;
     justify-content: start;
     position: fixed;
-
     width: 150px;
     height: 100%;
-
     background-color: #f6f6f6;
 }
 
@@ -165,16 +161,13 @@ ruby, section, summary, time, mark, audio, video {
     width: 100%;
     text-align: center;
     font-size: 14px;
-
     cursor: pointer;
-
     transition: .7s linear, color .7s linear, border .7s;
 }
 
 .nav-bar__text {
     display: block;
     position: relative;
-
     text-decoration: none;
     color: #464646;
 }
@@ -198,7 +191,6 @@ ruby, section, summary, time, mark, audio, video {
 .nav-bar__button:nth-child(1) {
     padding-top: 123px;
     padding-bottom: 64px;
-
     background-image: url(images/Ls.png);
     background-position: 30px 25px;
     background-repeat: no-repeat;
@@ -207,7 +199,6 @@ ruby, section, summary, time, mark, audio, video {
 .nav-bar__button:nth-child(2) {
     padding-top: 76px;
     padding-bottom: 29px;
-
     background-image: url(images/Ph.png);
     background-position: 52px 21px;
     background-repeat: no-repeat;
@@ -216,7 +207,6 @@ ruby, section, summary, time, mark, audio, video {
 .nav-bar__button:nth-child(3) {
     padding-top: 83px;
     padding-bottom: 22px;
-
     background-image: url(images/Se.png);
     background-position: 52px 16px;
     background-repeat: no-repeat;
@@ -225,7 +215,6 @@ ruby, section, summary, time, mark, audio, video {
 .nav-bar__button:nth-child(4) {
     padding-top: 77px;
     padding-bottom: 28px;
-
     background-image: url(images/Pp.png);
     background-position: 50px 23px;
     background-repeat: no-repeat;
@@ -243,7 +232,6 @@ ruby, section, summary, time, mark, audio, video {
     display: flex;
     flex-direction: column;
     overflow: hidden;
-
     max-width: 100%;
     width: 100%;
 }
@@ -252,25 +240,21 @@ ruby, section, summary, time, mark, audio, video {
 
     /* block-one
 ========================== */
-.main__block-one {
+.main__heroes-bike {
     position: relative;
-
     -moz-transition: all .7s ease-out;
     -o-transition: all .7s ease-out;
     -webkit-transition: all .7s ease-out;
-
     transform: translateX(20%);
     opacity: 0;
 }
 
-.block-one {
+.heroes-bike {
     display: flex;
     flex-direction: column;
-
     width: 100%;
     height: 42vw;
     font-family: "Gotham Pro";
-
     background-image: url(images/lays.jpg);
     background-size: cover;
 }
@@ -278,18 +262,16 @@ ruby, section, summary, time, mark, audio, video {
 .icon-block {
     display: flex;
     flex-direction: row;
-
     text-align: center;
 }
 
-.block-one__icon-block {
+.heroes-bike__icon-block {
     margin-top: 4.8vw;
     margin-left: 4.5vw;
 }
 
-.icon__wrap {
+.feature__wrap {
     overflow: visible;
-
     width: 8.1vw;
     height: 8.1vw;
     text-align: center;
@@ -297,12 +279,11 @@ ruby, section, summary, time, mark, audio, video {
     -moz-border-radius: 50%;
     border-radius: 50%;
     margin: 0 1.91vw;
-
     background-color: white;
     background-repeat: no-repeat;
 }
 
-.icon__text {
+.feature__text {
     margin-left: -.1vw;
     padding-top: 1vw;
     font-size: 1.22vw;
@@ -310,27 +291,27 @@ ruby, section, summary, time, mark, audio, video {
     letter-spacing: -.05vw;
 }
 
-.icon__text_3 {
+.feature__text_box {
     margin-top: -.2vw;
 }
 
-.icon span {
+.feature__text_red {
     color: red;
 }
 
-.icon__wrap_1  {
+.feature__wrap_camera  {
     background-image: url(images/photo.png);
     background-position: center;
     background-size: 7vw;
 }
 
-.icon__wrap_2 {
+.feature__wrap_heart {
     background-image: url(images/heart.png);
     background-position: center;
     background-size: 7vw;
 }
 
-.icon__wrap_3  {
+.feature__wrap_box  {
     background-image: url(images/box.png);
     background-position: center;
     background-size: 6.8vw;
@@ -345,7 +326,7 @@ ruby, section, summary, time, mark, audio, video {
     letter-spacing: .45vw;
 }
 
-.block-one__h1-block {
+.heroes-bike__h1-block {
     margin: 4.68vw auto auto 4.95vw;
 }
 
@@ -376,7 +357,6 @@ ruby, section, summary, time, mark, audio, video {
 .gallery {
     display: flex;
     width: 100%;
-
     background-color: white;
 }
 
@@ -384,7 +364,6 @@ ruby, section, summary, time, mark, audio, video {
     -moz-transition: all .7s ease-out;
     -o-transition: all .7s ease-out;
     -webkit-transition: all .7s ease-out;
-
     transform: translateX(-20%);
     opacity: 0;
 }
@@ -392,10 +371,8 @@ ruby, section, summary, time, mark, audio, video {
 .gallery-left {
     display: flex;
     flex-direction: column;
-
     width: 50.5%;
     height: 45.7vw;
-
     background-image: url(images/gallery_block_left.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -406,7 +383,6 @@ ruby, section, summary, time, mark, audio, video {
     height: 14.7vw;
     margin-left: 7.47vw;
     margin-top: 2.6vw;
-
     background-image: url(images/vk_inst_icon.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -424,16 +400,14 @@ ruby, section, summary, time, mark, audio, video {
     line-height: 3.8vw;
 }
 
-.h2-title span {
+.h2-title_red {
     display: inline-block;
-
     line-height: 3.6vw;
     width: 17vw;
     font-weight: 400;
     color: red;
     padding: 0 .6vw .3vw .5vw;
     margin-left: -.5vw;
-
     background-color: #ffffff;
 }
 
@@ -454,9 +428,7 @@ ruby, section, summary, time, mark, audio, video {
     text-decoration: none;
     text-transform: uppercase;
     border: 3px solid #f6f6f6;
-
     background-color: rgba(0, 0, 0, 0.1);
-
     transition: background .5s linear, color .5s linear, border .5s;
 }
 
@@ -472,7 +444,6 @@ ruby, section, summary, time, mark, audio, video {
 .gallery-right {
     display: flex;
     flex-wrap: wrap;
-
     width: 47.5%;
 }
 
@@ -480,55 +451,55 @@ ruby, section, summary, time, mark, audio, video {
     cursor: pointer;
 }
 
-.gallery-right div {
+.gallery-right__img {
     width: 32.3%;
     height: 32.1%;
     border: #d4d4d4;
     margin: .2vw;
 }
 
-.gallery-right__img1 {
+.gallery-right__img_1 {
     background-image: url(images/gal_1.png);
     background-size: cover;
 }
 
-.gallery-right__img2 {
+.gallery-right__img_2 {
     background-image: url(images/gal_2.png);
     background-size: cover;
 }
 
-.gallery-right__img3 {
+.gallery-right__img_3 {
     background-image: url(images/gal_3.png);
     background-size: cover;
 }
 
-.gallery-right__img4 {
+.gallery-right__img_4 {
     background-image: url(images/gal_4.png);
     background-size: cover;
 }
 
-.gallery-right__img5 {
+.gallery-right__img_5 {
     background-image: url(images/gal_5.png);
     background-size: cover;
 }
 
-.gallery-right__img6 {
+.gallery-right__img_6 {
     background-image: url(images/gal_6.png);
     background-size: cover;
 }
 
-.gallery-right__img7 {
+.gallery-right__img_7 {
     background-image: url(images/gal_7.png);
     background-size: cover;
 }
 
-.gallery-right__img8 {
+.gallery-right__img_8 {
     background-image: url(images/gal_8.png);
     background-size: 111%;
     background-position: -.65vw .1vw;
 }
 
-.gallery-right__img9 {
+.gallery-right__img_9 {
     background-image: url(images/gal_9.png);
     background-size: cover;
 }
@@ -540,16 +511,13 @@ ruby, section, summary, time, mark, audio, video {
 .about {
     display: flex;
     overflow: hidden;
-
     width: 100%;
 }
 
 .about-text-btn {
     position: relative;
-
     width: 51%;
     height: 46vw;
-
     background: url(images/about_block_left.png);
     background-color: tomato;
     background-size: contain;
@@ -559,7 +527,6 @@ ruby, section, summary, time, mark, audio, video {
     -moz-transition: all .7s ease-out;
     -o-transition: all .7s ease-out;
     -webkit-transition: all .7s ease-out;
-
     z-index: 10;
     transform: translateX(-30%);
     opacity: 0;
@@ -576,23 +543,20 @@ ruby, section, summary, time, mark, audio, video {
 .about-text-btn::after {
     content: '';
     position: absolute;
-
     left: 99.8%;
     bottom: 57.5%;
     border: 3vw solid transparent;
     border-left: 3vw solid #f01401;
-
     z-index: 10;
 }
 
-.about__text br {
+.about__text_br {
     display: none;
 }
 
 .about__text {
     display: block;
     position: relative;
-
     width: 32vw;
     height: 4vw;
     color: white;
@@ -606,12 +570,10 @@ ruby, section, summary, time, mark, audio, video {
     content: "";
     position: absolute;
     display: block;
-
     top: -21.6vw;
     left: -2.6vw;
     width: 15vw;
     height: 19vw;
-
     background: url(images/about_block_icons.png);
     background-size: 116%;
 }
@@ -625,26 +587,21 @@ ruby, section, summary, time, mark, audio, video {
 
 .about__about-img-scale {
     width: 50%;
-
     -moz-transition: all .7s ease-out;
     -o-transition: all .7s ease-out;
     -webkit-transition: all .7s ease-out;
-
     transform: translateX(30%);
     opacity: 0;
 }
 
 .about-img-scale{
     display: block;
-
     width: 100%;
     height: 100%;
-
     background: url(images/about_img.jpg);
     background-size: cover;
     transform: scale(1.097);
     background-position: -.5vw;
-
     -moz-transition: all 10s ease-out;
     -o-transition: all 10s ease-out;
     -webkit-transition: all 10s ease-out;
@@ -663,17 +620,14 @@ ruby, section, summary, time, mark, audio, video {
 .summer {
     display: flex;
     overflow: hidden;
-
     width: 100%;
 }
 
 .summer__summer-img-scale {
     width: 51%;
-
     -moz-transition: all .7s ease-out;
     -o-transition: all .7s ease-out;
     -webkit-transition: all .7s ease-out;
-
     transform: translateX(-30%);
     opacity: 0;
 }
@@ -682,12 +636,10 @@ ruby, section, summary, time, mark, audio, video {
     width: 100%;
     height: 100%;
     transform: scale(1.01);
-
     background: url(images/summer_left.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: .15vw -.24vw;
-
     -moz-transition: all 10s ease-out;
     -o-transition: all 10s ease-out;
     -webkit-transition: all 10s ease-out;
@@ -701,19 +653,15 @@ ruby, section, summary, time, mark, audio, video {
 
 .summer-title-btn {
     position: relative;
-
     width: 50%;
     height: 46vw;
     text-align: center;
-
     background: url(images/lays_block.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
     -moz-transition: all .7s ease-out;
     -o-transition: all .7s ease-out;
     -webkit-transition: all .7s ease-out;
-
     transform: translateX(30%);
     opacity: 0;
 }
@@ -726,7 +674,6 @@ ruby, section, summary, time, mark, audio, video {
 .summer-title-btn::after {
     content: '';
     position: absolute;
-
     right: 99.8%;
     bottom: 38.5%;
     border: 3vw solid transparent;
@@ -751,7 +698,6 @@ ruby, section, summary, time, mark, audio, video {
 .footer {
     display: flex;
     justify-content: flex-start;
-
     width: 100%;
     height: 6.3vw;
     background-color: #3c3c3c;
@@ -760,17 +706,14 @@ ruby, section, summary, time, mark, audio, video {
 .footer__icon {
     width: 6.43vw;
     height: 6.3vw;
-
     background-size: 30%;
     background-repeat: no-repeat;
     background-position: center;
-
     transition: .6s;
 }
 
-.footer__copirayte {
+.footer__copyright {
     position: relative;
-
     width: 17.1vw;
     margin: 2.9vw auto 0 7.1vw;
     font-family: Arial, Helvetica, sans-serif;
@@ -779,16 +722,14 @@ ruby, section, summary, time, mark, audio, video {
     letter-spacing: .03vw;
 }
 
-.footer__copirayte::before {
+.footer__copyright::before {
     display: block;
     content: "";
     position: absolute;
-
     top: -1.6vw;
     left: -5vw;
     width: 4.2vw;
     height: 4.3vw;
-
     background-image: url(images/Ls.png);
     background-size: 98%;
     background-repeat: no-repeat;
@@ -848,21 +789,21 @@ ruby, section, summary, time, mark, audio, video {
     height: 5.5vw;
 }
 
-    .footer__icon {
-        width: 5.5vw;
-        height: 5.3vw;
-    } 
+.footer__icon {
+    width: 5.5vw;
+    height: 5.3vw;
+} 
 
-    .footer__copirayte {
-        margin: 2.25vw auto 0 8.1vw;
-    }
+.footer__copyright {
+    margin: 2.25vw auto 0 8.1vw;
+}
 
-    .footer__copirayte::before {
-        top: -1.35vw;
-        left: -4.5vw;
-        width: 4.1vw;
-        height: 4.2vw;
-    }
+.footer__copyright::before {
+    top: -1.35vw;
+    left: -4.5vw;
+    width: 4.1vw;
+    height: 4.2vw;
+}
 }
 
 @media (min-width: 1921px) {
@@ -871,37 +812,37 @@ ruby, section, summary, time, mark, audio, video {
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
-.block-one {
+.heroes-bike {
     height: 806px;
 }
 
-.icon__wrap {
+.feature__wrap {
     width: 155px;
     height: 155px;
     margin: 0 36px;
 }
 
-.block-one__icon-block {
+.heroes-bike__icon-block {
     margin-top: 86px;
     margin-left: 92px;
 }
 
-.icon__text {
+.feature__text {
     padding-top: 20px;
     font-size: 25px;
     line-height: 28px;
     letter-spacing: -0.9px;
 }
 
-.icon__wrap_1 {
+.feature__wrap_camera {
     background-size: 155px;
 }
 
-.icon__wrap_2 {
+.feature__wrap_heart {
     background-size: 155px;
 }
 
-.icon__wrap_3 {
+.feature__wrap_box {
     background-size: 155px;
 }
 
@@ -947,105 +888,103 @@ ruby, section, summary, time, mark, audio, video {
     height: 877px;
 }
 
-    .gallery-left {
-        height: 877px;
-        width: 51%;
-    }
+.gallery-left {
+    height: 877px;
+    width: 51%;
+}
 
-    .gallery-left__vk-icon {
-        width: auto;
-        height: 282px;
-        margin-left: 144px;
-        margin-top: 50px;
-    }
+.gallery-left__vk-icon {
+    width: auto;
+    height: 282px;
+    margin-left: 144px;
+    margin-top: 50px;
+}
 
-    .h2-title {
-        font-size: 53px;
-        margin-left: 119px;
-        margin-top: 6px;
-        line-height: 75px;
-    }
+.h2-title {
+    font-size: 53px;
+    margin-left: 119px;
+    margin-top: 6px;
+    line-height: 75px;
+}
 
-    .h2-title span {
-        width: 341px;
-        padding: 5px 1px;
-        padding-left: 8px;
-        margin-left: -10px;
-        letter-spacing: 1.6px;
-        font-weight: 400;
-        line-height: 71px;
-    }
+.h2-title_red {
+    width: 341px;
+    padding: 5px 1px;
+    padding-left: 8px;
+    margin-left: -10px;
+    letter-spacing: 1.6px;
+    font-weight: 400;
+    line-height: 71px;
+}
 
-    .btn {
-        width: 307px;
-        height: 86px;
-        padding: 20px 33px;
-        margin: 48px 108px 0px;
-        font-size: 29px;
-        letter-spacing: 2px;
-        border: 2px solid #f6f6f6;
-    }
+.btn {
+    width: 307px;
+    height: 86px;
+    padding: 20px 33px;
+    margin: 48px 108px 0px;
+    font-size: 29px;
+    letter-spacing: 2px;
+    border: 2px solid #f6f6f6;
+}
 
-    .gallery-right {
-        width: 868px;
-        margin: 23px auto 23px 23px;
-    }
+.gallery-right {
+    width: 868px;
+    margin: 23px auto 23px 23px;
+}
 
-    .gallery-right div {
-        width: 268px;
-        height: 271px;
-        margin: 4px;
-    }
+.gallery-right__img {
+    width: 268px;
+    height: 271px;
+    margin: 4px;
+}
 
 
 
     /* block_about
 ========================== */
-    .about-text-btn {
-        height: 883px;
-        width: 51%;
-    }
+.about-text-btn {
+    height: 883px;
+    width: 51%;
+}
 
-    .about__h2-title {
-        margin-left: 402px;
-        margin-top: 154px;
-    }
+.about__h2-title {
+    margin-left: 402px;
+    margin-top: 154px;
+}
 
-    .h2-title {
-        font-size: 75px;
-        line-height: 85px;
-    }
+.h2-title {
+    font-size: 75px;
+    line-height: 85px;
+}
 
-    .about__text {
-        width: 615px;
-        height: 77px;
-        font-size: 25px;
-        margin-left: 98px;
-        margin-top: 110px;
-        line-height: 35px;
-    }
+.about__text {
+    width: 615px;
+    height: 77px;
+    font-size: 25px;
+    margin-left: 98px;
+    margin-top: 110px;
+    line-height: 35px;
+}
 
-    .about__text:before {
-        content: "";
+.about__text:before {
+    content: "";
+    top: -390px;
+    left: -35px;
+    width: 360px;
+    height: 400px;
+    background-size: 100% 100%;
+}
 
-        top: -390px;
-        left: -35px;
-        width: 360px;
-        height: 400px;
-
-        background-size: 100% 100%;
-    }
-
-    .about-text-btn::after {
-        border: 62px solid transparent;
-        border-left: 62px solid #f01401;
-    }
+.about-text-btn::after {
+    border: 62px solid transparent;
+    border-left: 62px solid #f01401;
+}
 
 
-    .about-img-scale {
-        height: 883px;
-        background-size: cover;
-    }
+.about-img-scale {
+    height: 883px;
+    background-size: cover;
+}
     
         
 
@@ -1083,13 +1022,13 @@ ruby, section, summary, time, mark, audio, video {
     height: 121px;
 }
 
-.footer__copirayte {
+.footer__copyright {
     margin: 56px auto 0 137px;
     width: 500px;
     font-size: 16px;
 }
 
-.footer__copirayte::before {
+.footer__copyright::before {
     top: -28px;
     left: -105px;
     width: 83px;
@@ -1107,38 +1046,38 @@ ruby, section, summary, time, mark, audio, video {
 
     /* block_one
 ====================== */
-.block-one {
+.heroes-bike {
     height: 41.5vw;
 }
 
-.icon__wrap {
+.feature__wrap {
     height: 7.8vw;
 }
 
-.icon_1 {
+.feature__camera {
     margin-right: -.25vw;
 }
 
-.icon_2 {
+.feature__heart {
     margin-right: -.1vw;
 }
 
-.icon__text  {
+.feature__text  {
     font-size: 1.2vw;
     padding-top: 1.2vw;
     margin-left: -.6vw;
     line-height: 1.5vw;
 }
 
-.icon__text_2 {
+.feature__text_heart {
     margin-left: -.4vw;
 }
 
-.icon__text_3  {
+.feature__text_box  {
     margin-left: .1vw;
 }
 
-.block-one__h1-block {
+.heroes-bike__h1-block {
     margin-top: 4.65vw;
     margin-left: 4.85vw;
 }
@@ -1292,7 +1231,7 @@ ruby, section, summary, time, mark, audio, video {
     margin: 1.5vw auto 1.5vw 1.5vw;
 }
 
-.gallery-right div {
+.gallery-right__img {
     width: 32.2%;
     height: 32.2%;
 }
@@ -1313,7 +1252,6 @@ ruby, section, summary, time, mark, audio, video {
 
 .block-help {
     display: block;
-
     width: 100%;
     height: 18.1vw;
 }
@@ -1325,7 +1263,6 @@ ruby, section, summary, time, mark, audio, video {
 .site__nav-bar-mobil {
     display: block;
     position: fixed;
-
     z-index: 500;
 }
 
@@ -1335,96 +1272,127 @@ ruby, section, summary, time, mark, audio, video {
 }
 
 
-.nav-bar-mobil__btn::after {
+/* .nav-bar-mobil__btn::after {
     content: "";
     position: absolute;
     display: block;
-
     top: 1.95vw;
     left: 6vw;
     width: 17.5vw;
     height: 17.5vw;
-
+    background-image: url(images/Ls.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+} */
+.nav-bar-mobil__logo {
+    position: absolute;
+    display: block;
+    top: 1.95vw;
+    left: 6vw;
+    width: 17.5vw;
+    height: 17.5vw;
     background-image: url(images/Ls.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
 
+.nav-bar-mobil__btn-wrapper {
+    -moz-transition: all .4s ease-out;
+    -o-transition: all .4s ease-out;
+    -webkit-transition: all .4s ease-out;
+}
+
 .nav-bar-mobil__menu-line {
     width: 100%;
-
     padding: 9vw 0;
     text-align: center;
     color: black;
     text-decoration: none;
     border-top: 1px solid;
     border-color: rgba(0, 0, 0, 0.3);
-
     background-color: white;
     background-repeat: no-repeat;
     background-size: 13vw;
     background-position: 9vw 4vw;
-
-    -moz-transition: all .8s ease-out;
-    -o-transition: all .8s ease-out;
-    -webkit-transition: all .8s ease-out;
+    -moz-transition: all .4s ease-out;
+    -o-transition: all .4s ease-out;
+    -webkit-transition: all .4s ease-out;
 }
 
 .nav-bar-mobil__btn {
     font-size: 5.1vw;
     color: red;
+    padding: 0;
+    border: none;
     font-weight: 500;
     padding: 7vw 0;
     letter-spacing: .2vw;
-
     transition-delay: .2s;
 }
 
-.btn__burger-line {
+.nav-bar-mobil__burger-icon {
     position: absolute;
-
-    top: 6vw;
+    top: 9vw;
     right: 7.5vw;
     width: 10.1vw;
     height: 1.4vw;
-
     background-color: #c43f45;
-
     -moz-transition: all .2s ease-out;
     -o-transition: all .2s ease-out;
     -webkit-transition: all .2s ease-out;
 }
 
-.btn__burger-line_second {
-    top: 9vw;
+.nav-bar-mobil__burger-icon::before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 3vw;
+    right: .1vw;
+    width: 10vw;
+    height: 1.4vw;
+    background-color: #c43f45;
+    -moz-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    -webkit-transition: all .2s ease-out;
 }
 
-.btn__burger-line_third {
-    top: 12vw;
+.nav-bar-mobil__burger-icon::after {
+    content: "";
+    position: absolute;
+    top: -3vw;
+    right: .1vw;
+    width: 10vw;
+    height: 1.4vw;
+    background-color: #c43f45;
+    -moz-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    -webkit-transition: all .2s ease-out;
 }
 
-.btn__burger-line_first-rotate {
-    top: 9vw;
-    transform: rotate(45deg);
+.nav-bar-mobil__burger-icon.nav-bar-mobil__burger-icon_active {
+    background-color: transparent;
 }
 
-.btn__burger-line_second-opacity {
-    opacity: 0;
-}
-
-.btn__burger-line_third-rotate {
-    top: 9vw;
+.nav-bar-mobil__burger-icon.nav-bar-mobil__burger-icon_active::before {
     transform: rotate(-45deg);
+    top: 0;
 }
+
+.nav-bar-mobil__burger-icon.nav-bar-mobil__burger-icon_active::after {
+    transform: rotate(45deg);
+    top: 0;
+}
+
+.nav-bar-mobil__btn-wrapper_hide {
+    transform: translateY(-100%);
+}
+
+
 
 .nav-bar-mobil__text {
     font-size: 4vw;
     color: black;
     text-decoration: none;
-}
-
-.nav-bar-mobil__btn_hide {
-    transform: translateY(-100%);
 }
 
 .nav-bar-mobil__menu-line_1 {
@@ -1451,89 +1419,86 @@ ruby, section, summary, time, mark, audio, video {
     color: #6e6a6a77;
     text-transform: uppercase;
     padding: 7vw 0;
-
     background-color: #efebeb;
-
     opacity: 0;
     transform: translateX(-80%);
 }
 
-.nav-bar-mobil__menu-line-swipe_0 {
+.nav-bar-mobil__menu-line_swipe .nav-bar-mobil__menu-line {
     opacity: 1;
     transform: translateX(0);
 }
     
 
 
-    /* block-one
+    /* heroes-bike
 ========================== */
-.block-one_gradient {
+.heroes-bike_gradient {
     background: linear-gradient(79deg, #80bae2, #609dd3);
 }
 
-.block-one {
+.heroes-bike {
     height: 172.6vw;
-
     background-size: 225%;
     background-position: -106.7vw 69.6vw;
     background-repeat: no-repeat;
 }
 
-.main__block-one {
+.main__heroes-bike {
     transform: translateX(0);
     opacity: 1;
 }
 
-.icon__wrap {
+.feature__wrap {
     width: 20.3vw;
     height: 20vw;
     margin: 2.6vw 5vw;
 }
 
-.icon_2 {
+.feature__heart {
     margin: 0 -1vw;
 }
 
-.icon_3 {
+.feature__box {
     margin: 0 0;
 }
 
-.icon__text {
+.feature__text {
     font-size: 4vw;
     line-height: 4.6vw;
     letter-spacing: -0.1px;
     margin-left: -1.1vw;
 }
 
-.icon__text_1 {
+.feature__text_camera {
     padding-top: .1vw;
 }
 
-.icon__text_2 {
+.feature__text_heart {
     padding-top: 0;
     letter-spacing: -0.1px;
     margin-left: 1.1vw;
 }
 
-.icon__text_3 {
+.feature__text_box {
     padding-top: 0vw;
     letter-spacing: .15px;
     margin-left: .5vw;
 }
 
-.icon__wrap_1 {
+.feature__wrap_camera {
     background-size: 16.5vw;
 }
 
-.icon__wrap_2 {
+.feature__wrap_heart {
     background-size: 16.5vw;
 }
 
-.icon__wrap_3 {
+.feature__wrap_box {
     background-size: 16.5vw;
 }
 
-.block-one__h1-block {
+.heroes-bike__h1-block {
     margin: 9.52vw 26.35vw .6vw auto;
 }
 
@@ -1567,7 +1532,6 @@ ruby, section, summary, time, mark, audio, video {
 ========================== */
 .gallery {
     flex-direction: column;
-
     width: 100%;
     height: max-content;
 }
@@ -1579,10 +1543,8 @@ ruby, section, summary, time, mark, audio, video {
 
 .gallery-left {
     flex-wrap: wrap;
-
     width: 100%;
     height: 100.94vw;
-
     background-size: 102%;
     background-position: 0 -.5vw;
 }
@@ -1605,7 +1567,7 @@ ruby, section, summary, time, mark, audio, video {
     line-height: 8.8vw;
 }
 
-.h2-title span {
+.h2-title_red {
     width: 39vw;
     padding: 2.3vw .79vw 2.6vw 1.68vw;
     margin-left: -1.5vw;
@@ -1629,7 +1591,6 @@ ruby, section, summary, time, mark, audio, video {
 
 .gallery-right {
     position: relative;
-
     width: 91.4%;
     height: 91.7vw;
     padding: 4.46vw 4vw 4.5vw 4.35vw;
@@ -1638,16 +1599,14 @@ ruby, section, summary, time, mark, audio, video {
 .gallery-right::before {
     content: '';
     position: absolute;
-
     left: 43.66%;
     top: -13.5%;
     border: 8vw solid transparent;
     border-bottom: 8vw solid white;
-
     z-index: 20;
 }
 
-.gallery-right div {
+.gallery-right_img {
     width: 32.2%;
     height: 31.9%;
     margin: .5vw;
@@ -1672,7 +1631,7 @@ ruby, section, summary, time, mark, audio, video {
     opacity: 1;
 }
 
-.about-text-btn br {
+.about-text-btn_br {
     display: none;
 }
 
@@ -1687,7 +1646,7 @@ ruby, section, summary, time, mark, audio, video {
     letter-spacing: -.31vw;
 }
 
-.about__text br {
+.about__text_br {
     display: inline;
 }
 
@@ -1721,7 +1680,6 @@ ruby, section, summary, time, mark, audio, video {
 
 .about__about-img-scale {
     width: 100%;
-
     transform: translateX(0);
     opacity: 1;
 }
@@ -1729,13 +1687,10 @@ ruby, section, summary, time, mark, audio, video {
 .about-img-scale {
     position: relative;
     overflow: hidden;
-
     width: 102.5%;
     height: 92.5vw;
-
     background-size: 103.1%;
     background-position: -4.1vw -6.9vw;
-
     -moz-transition: all 0s ease-out;
     -o-transition: all 0s ease-out;
     -webkit-transition: all 0s ease-out;
@@ -1744,12 +1699,10 @@ ruby, section, summary, time, mark, audio, video {
 .about-text-btn:before {
     content: '';
     position: absolute;
-
     left: 43.66%;
     top: 87.5%;
     border: 7vw solid transparent;
     border-bottom: 7vw solid #2570cb;
-
     z-index: 5;
 }
 
@@ -1766,13 +1719,11 @@ ruby, section, summary, time, mark, audio, video {
 .summer {
     flex-direction: column-reverse;
     height: max-content;
-
     z-index: 51;
 }
 
 .summer__summer-img-scale {
     width: 100%;
-
     transform: translateX(0);
     opacity: 1;
 }
@@ -1781,11 +1732,9 @@ ruby, section, summary, time, mark, audio, video {
     position: relative;
     width: 100%;
     height: 101.1vw;
-
     -moz-transition: all 0s ease-out;
     -o-transition: all 0s ease-out;
     -webkit-transition: all 0s ease-out;
-
     background-position: 0 -1.65vw;
 }
 
@@ -1794,7 +1743,6 @@ ruby, section, summary, time, mark, audio, video {
 .summer-title-btn {
     display: flex;
     flex-direction: column;
-
     width: 100%;
     height: 101.5vw;
 }
@@ -1807,7 +1755,6 @@ ruby, section, summary, time, mark, audio, video {
     .summer-title-btn:before {
     content: '';
     position: absolute;
-
     left: 44.16%;
     top: 87.5%;
     border: 7vw solid transparent;
@@ -1847,18 +1794,18 @@ ruby, section, summary, time, mark, audio, video {
     height: 13.1vw;
 }
 
-.footer__copirayte {
+.footer__copyright {
     margin: 4.5vw 5.4vw 0 9.4vw;
     width: 29.1vw;
     font-size: 2.8vw;
     letter-spacing: -.03vw;
 }
 
-.footer__copirayte::before {
+.footer__copyright::before {
     display: none;
 }
 
-.footer__copirayte span {
+.footer__copyright_complete {
     display: none;
 }
 }
@@ -1871,11 +1818,11 @@ ruby, section, summary, time, mark, audio, video {
     margin: 8.99vw 27vw .6vw auto;
 }
 
-.icon_1 { 
+.feature__camera { 
 margin-top: .2vw;
 }
 
-.icon_3 {
+.feature__box {
     margin-top: .1vw;
 }
 

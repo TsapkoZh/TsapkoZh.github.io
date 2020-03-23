@@ -25,17 +25,21 @@
         </nav>
 
         <nav class="site__nav-bar-mobil nav-bar-mobil">
-            <div class="nav-bar-mobil__btn nav-bar-mobil__menu-line">
-                <a class="btn_title">#letolays</a>
-                <div class="btn__burger-line btn__burger-line_first"><!--is empty--></div>
-                <div class="btn__burger-line btn__burger-line_second"><!--is empty--></div>
-                <div class="btn__burger-line btn__burger-line_third"><!--is empty--></div>
+            <div class="js-nav-bar-mobil__btn-wrapper nav-bar-mobil__btn-wrapper">
+                <button class="js-nav-bar-mobil__btn nav-bar-mobil__btn nav-bar-mobil__menu-line">
+                    <a class="btn_title">#letolays</a>
+                    <div class="js-nav-bar-mobil__burger-icon nav-bar-mobil__burger-icon"><!--is empty--></div>
+                </button>
+
+                <div class="nav-bar-mobil__logo" href="#"><!--is empty--></div>
             </div>
 
-            <div class="nav-bar-mobil__menu-line nav-bar-mobil__menu-line_1" href="#"><a class="nav-bar-mobil__text">Галерея</a></div>
-            <div class="nav-bar-mobil__menu-line nav-bar-mobil__menu-line_2" href="#"><a class="nav-bar-mobil__text">О проекту</a></div>
-            <div class="nav-bar-mobil__menu-line nav-bar-mobil__menu-line_3" href="#"><a class="nav-bar-mobil__text">Лето с Lay's</a></div>
-            <div class="nav-bar-mobil__menu-line nav-bar-mobil__menu-line_4" href="#"><a class="nav-bar-mobil__text">свернуть меню</a></div>
+            <ul class="js-nav-bar-mobil__menu-lines nav-bar-mobil__menu-lines">
+                <li class="nav-bar-mobil__menu-line nav-bar-mobil__menu-line_1" href="#"><a class="nav-bar-mobil__text">Галерея</a></li>
+                <li class="nav-bar-mobil__menu-line nav-bar-mobil__menu-line_2" href="#"><a class="nav-bar-mobil__text">О проекту</a></li>
+                <li class="nav-bar-mobil__menu-line nav-bar-mobil__menu-line_3" href="#"><a class="nav-bar-mobil__text">Лето с Lay's</a></li>
+                <li class="nav-bar-mobil__menu-line js-nav-bar-mobil__menu-line_4 nav-bar-mobil__menu-line_4"><a class="nav-bar-mobil__text">свернуть меню</a></li>
+            </ul>
         </nav>
 
 
@@ -43,45 +47,46 @@
         <main class="site__main">
             <div class="block-help"><!--is empty--></div>
             
-            <div class="block-one_gradient">
-            <div class="main__block-one block-one">
-                <div class="block-one__icon-block icon-block">
-                    <div class="icon icon_1">
-                        <div class="icon__wrap icon__wrap_1"><!--is empty--></div>
-                        <p class="icon__text icon__text_1">
+            <div class="heroes-bike_gradient">
+            <section class="main__heroes-bike heroes-bike js-main__heroes-bike">
+                <div class="heroes-bike__icon-block icon-block">
+
+                    <div class="feature feature__camera">
+                        <div class="feature__wrap feature__wrap_camera"><!--is empty--></div>
+                        <p class="feature__text feature__text_camera">
                             Загружай фото<br>
                             с хештегом<br>
-                            <span>#летосLays</span>
+                            <span class="feature__text_red">#летосLays</span>
                         </p>
                     </div>
 
-                    <div class="icon icon_2">
-                        <div class="icon__wrap icon__wrap_2"><!--is empty--></div>
-                        <p class="icon__text icon__text_2">
+                    <div class="feature feature__heart">
+                        <div class="feature__wrap feature__wrap_heart"><!--is empty--></div>
+                        <p class="feature__text feature__text_heart">
                             Собирай<br>
                             лайки<br>
                         </p>
                     </div>
 
-                    <div class="icon icon_3">
-                        <div class="icon__wrap icon__wrap_3"><!--is empty--></div>
-                        <p class="icon__text icon__text_3">
+                    <div class="feature feature__box">
+                        <div class="feature__wrap feature__wrap_box"><!--is empty--></div>
+                        <p class="feature__text feature__text_box">
                             Выигрывай<br>
                             призы<br>
                         </p>
                     </div>
                 </div> <!--icon_block-->
 
-                <h1 class="block-one__h1-block h1-block"> ЛЕТО<br>
+                <h1 class="heroes-bike__h1-block h1-block"> ЛЕТО<br>
                     <span class="h1-block__midle">ВКУСНЕЕ</span><br>
                     <span class="h1-block__last-C">C</span><span class="h1-block__last-Lays">Lay's</span>
                 </h1>
-            </div> <!--block-one-->
+            </section> <!--block-one-->
             </div> <!--block-one-gradient-->
 
 
 
-            <div class="main__gallery gallery">
+            <section class="js-main__gallery main__gallery gallery">
                 <div class="gallery-left">
                     <div class="gallery-left__vk-icon"><!--is empty--></div>
 
@@ -89,65 +94,65 @@
                         Загружай<br>
                         фото<br>
                         с хэштегом<br>
-                        <span>#летосLays</span>
+                        <span class="h2-title_red">#летосLays</span>
                     </h2>
 
                     <button class="gallery__btn btn" href="#">галерея</button>
                 </div> <!--gallery_left-->
 
                 <div class="gallery__gallery-right gallery-right" href="#">
-                    <div class="gallery-right__img1"><!--is empty--></div>
-                    <div class="gallery-right__img2"><!--is empty--></div>
-                    <div class="gallery-right__img3"><!--is empty--></div>
-                    <div class="gallery-right__img4"><!--is empty--></div>
-                    <div class="gallery-right__img5"><!--is empty--></div>
-                    <div class="gallery-right__img6"><!--is empty--></div>
-                    <div class="gallery-right__img7"><!--is empty--></div>
-                    <div class="gallery-right__img8"><!--is empty--></div>
-                    <div class="gallery-right__img9"><!--is empty--></div>
+                    <div class="gallery-right__img gallery-right__img_1"><!--is empty--></div>
+                    <div class="gallery-right__img gallery-right__img_2"><!--is empty--></div>
+                    <div class="gallery-right__img gallery-right__img_3"><!--is empty--></div>
+                    <div class="gallery-right__img gallery-right__img_4"><!--is empty--></div>
+                    <div class="gallery-right__img gallery-right__img_5"><!--is empty--></div>
+                    <div class="gallery-right__img gallery-right__img_6"><!--is empty--></div>
+                    <div class="gallery-right__img gallery-right__img_7"><!--is empty--></div>
+                    <div class="gallery-right__img gallery-right__img_8"><!--is empty--></div>
+                    <div class="gallery-right__img gallery-right__img_9"><!--is empty--></div>
                 </div>
-            </div> <!--gallery-->
+            </section> <!--gallery-->
 
 
 
-            <div class="about">
-                <div class="about__about-text-btn about-text-btn">
+            <section class="about">
+                <div class="js-about__about-text-btn about__about-text-btn about-text-btn">
                     <h2 class="about__h2-title h2-title h2-title_size">
-                        Выиграй<br>
-                        призы<br>
+                        Выиграй<br class="about-text-btn_br">
+                        призы<br class="about-text-btn_br">
                         от Lay's
                     </h2>
                     
                     <a class="about__text">
-                    Этим летом бренд Lay’s задает тренд<br> на яркое, 
+                    Этим летом бренд Lay’s задает тренд<br class="about__text_br"> на яркое, 
                     вкусное лето и на позитивный желтый цвет.
                     </a>
 
                     <button class="btn about__btn" href="#">О ПРОЕКТЕ</button>
                 </div>
 
-                <div class="about__about-img-scale">
+                <div class="js-about__about-img-scale about__about-img-scale">
                     <div class="about-img-scale"><!--is empty--></div>
                 </div>
-            </div> <!--about-->
+            </section> <!--about-->
 
 
 
-            <div class="summer">
-                <div class="summer__summer-img-scale">
+            <section class="summer">
+                <div class="js-summer__summer-img-scale summer__summer-img-scale">
                     <div class="summer-img-scale"><!--is empty--></div>
                 </div>
 
-                <div class="summer__summer-title-btn summer-title-btn">
+                <div class="js-summer__summer-title-btn summer__summer-title-btn summer-title-btn">
                     <h2 class="h2-title h2-title_title">Лето с Lay's</h2>
                     <button class="btn summer__btn" href="#">перейти</button>
                 </div>
-            </div> <!--summer-->
+            </section> <!--summer-->
 
 
 
             <footer class="footer">
-                <p class="footer__copirayte">© 2015 Lay's Russia<span>. Все права защищены</span></p>
+                <p class="footer__copyright">© 2015 Lay's Russia<span class="footer__copyright_complete">. Все права защищены</span></p>
 
                 <a class="footer__icon footer__icon_fb" href="#"><!--is empty--></a>
                 <a class="footer__icon footer__icon_vk" href="#"><!--is empty--></a>
