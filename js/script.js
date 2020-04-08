@@ -1,11 +1,11 @@
-// blockAnimSwipe
+// animSwipe
 // ===============================
 window.onload = function() {
     document.querySelector('.js-main__heroes-bike').classList.add('block_swipe');
     document.querySelector('.js-main__gallery').classList.add('block_swipe');
 };
 
-// mobilMenuScroll
+// mobilMenuHidenAnimSwipe
 // ===============================
 window.addEventListener('scroll', throttle(handleScroll, 100), false);
 
