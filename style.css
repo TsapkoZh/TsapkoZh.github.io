@@ -421,10 +421,10 @@ ruby, section, summary, time, mark, audio, video {
     border: 3px solid #f6f6f6;
     background-color: rgba(0, 0, 0, 0.1);
     transition: background .5s linear, color .5s linear, border .5s;
+    cursor: pointer;
 }
 
 .btn:hover {
-    cursor: pointer;
     background-color: rgba(0, 0, 0, 0.3);
 }
 
