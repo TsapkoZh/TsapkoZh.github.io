@@ -1,6 +1,8 @@
 // animSwipe
 // ===============================
-window.onload = function() {
+window.addEventListener('load', onloadAnimation, false);
+
+function onloadAnimation() {
     document.querySelector('.js-main__heroes-bike').classList.add('block_swipe');
     document.querySelector('.js-main__gallery').classList.add('block_swipe');
 };
